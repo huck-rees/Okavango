@@ -1,0 +1,17 @@
+name: okavango
+channels: [conda-forge]
+dependencies:
+  - python=3.11
+  - earthengine-api
+  - geemap
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - rasterio
+  - geopandas
+  - shapely
+  - scikit-image        # morphological filtering
+  - pymannkendall       # MK / SMK trend tests
+  - statsmodels         # ANCOVA / OLS
+  - pip
