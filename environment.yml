@@ -2,16 +2,32 @@ name: okavango
 channels: [conda-forge]
 dependencies:
   - python=3.11
+  # Earth Engine + interactive mapping (generation notebooks)
   - earthengine-api
   - geemap
+  - folium
+  - ipyleaflet
+  - ipywidgets
+  # geospatial
+  - geopandas
+  - shapely
+  - fiona
+  - pyproj
+  - rasterio
+  # scientific / stats
   - numpy
   - pandas
   - scipy
+  - scikit-learn
+  # plotting
   - matplotlib
-  - rasterio
-  - geopandas
-  - shapely
-  - scikit-image        # morphological filtering
-  - pymannkendall       # MK / SMK trend tests
-  - statsmodels         # ANCOVA / OLS
+  - matplotlib-scalebar
+  - seaborn
+  # utilities
+  - requests
+  - tqdm
+  - python-dateutil
+  # notebook environment
+  - jupyterlab
+  - ipython
   - pip
