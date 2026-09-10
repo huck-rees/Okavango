@@ -30,6 +30,10 @@ The AdDSWE products and all derived datasets are archived on Dryad:
 - **Dryad:** https://doi.org/10.5061/dryad.msbcc2gct
 - **Interactive viewer:** https://okavango-water-mask-viewer.streamlit.app/
 
+> **Note:** the Dryad dataset is currently under review and not yet publicly released, so
+> the DOI above will not resolve until the dataset is published (typically upon publication
+> of the associated article). The identifier itself is final and will not change.
+
 The `analysis/` notebooks are designed to run against the Dryad file layout — download the
 archive and point each notebook's input paths at your local copy. See the Dryad `README`
 for file-level descriptions, variable definitions, units, and coordinate reference systems.
