@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "addswe"
+version = "0.1.0"
+description = "Adapted Dynamic Surface Water Extent (AdDSWE) for the Okavango Delta."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "Huck Rees" }]
+
+[tool.setuptools.packages.find]
+include = ["addswe*"]

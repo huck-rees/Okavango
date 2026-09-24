@@ -84,7 +84,12 @@ functions.
 ```bash
 conda env create -f environment.yml
 conda activate okavango
+pip install -e .
 ```
+
+The editable install makes `addswe` importable from anywhere (including the
+`generation/` notebooks), so `from addswe import ...` works without adjusting
+`sys.path`.
 
 Then, for Earth Engine functionality, authenticate once with `earthengine authenticate`.
 
